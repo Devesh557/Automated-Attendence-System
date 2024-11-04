@@ -6,7 +6,7 @@ cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(
     cred,
     {
-        "databaseURL": "https://face-recognization-7820a-default-rtdb.firebaseio.com/",
+        "databaseURL": "",
         # database URL
     },
 )
@@ -22,7 +22,7 @@ data = {
         "password": "Devesh@2003",
         "dob": "2003-12-03",
         "address": "Gujarat, vadodara",
-        "phone": "9398027518",
+        "phone": "",
         "email": "pentaakhilrock@gmail.com",
         "major": "cse-ai",
         "starting_year": 2021,
